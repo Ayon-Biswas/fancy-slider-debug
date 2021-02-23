@@ -10,7 +10,6 @@ let sliders = [];
 
 document.getElementById("search")
    .addEventListener("keypress", function(event) {
-     
       if (event.key == "Enter"){
         document.getElementById("search-btn").click();
       }
